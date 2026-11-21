@@ -623,3 +623,19 @@ button:focus-visible {
   color: #fff;
   font-weight: 700;
 }
+
+
+/* Schedule table */
+.ev-table {
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.ev-table thead th {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  white-space: nowrap;
+}
