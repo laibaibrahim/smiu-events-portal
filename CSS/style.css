@@ -591,6 +591,126 @@ button:focus-visible {
   }
 }
 
+/* events page styling */
+/* ===== Ansharah: Events pages (unique prefix: ev-) ===== */
+
+/* Page header banner used on Events and Event Details pages */
+.ev-page-header {
+  padding: clamp(3rem, 6vw, 4.5rem) 0;
+  background: var(--primary);
+  color: #fff;
+}
+
+.ev-page-header__title {
+  color: #fff;
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.ev-page-header__lead {
+  max-width: 640px;
+  margin: 0.5rem auto 0;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Date badge on event cards */
+.ev-date-badge {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #d5e9e7;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 700;
+}
+
+
+/* Schedule table */
+.ev-table {
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.ev-table thead th {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+
+/* Event details page */
+.ev-back-link {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.ev-back-link:hover {
+  color: var(--accent-hover);
+}
+
+.ev-banner {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 40vw, 420px);
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.ev-info-box {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+.ev-info-box i {
+  color: var(--accent);
+  font-size: 1.6rem;
+}
+
+.ev-info-box__label {
+  display: block;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.ev-info-box strong {
+  color: var(--primary);
+}
+
+
+/* Accordion in teal theme */
+.ev-accordion .accordion-button:not(.collapsed) {
+  background: #edf7f6;
+  color: var(--primary);
+  box-shadow: none;
+}
+
+.ev-accordion .accordion-button:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 0.2rem rgba(20, 125, 120, 0.25);
+}
+
+
+/* Registration modal */
+.ev-modal {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.ev-modal .modal-header {
+  background: var(--surface-tint);
+  border-bottom: 1px solid var(--border);
+  color: var(--primary);
+}
 /* =================================
    SOCIETY CARDS - MODERN DESIGN
 
