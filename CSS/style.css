@@ -705,3 +705,46 @@ button:focus-visible {
   }
 
 }
+
+/* ================= MOBILE HERO IMPROVEMENTS ================= */
+
+@media (max-width: 575.98px) {
+
+  .home-hero {
+    min-height: 440px;
+    display: flex;
+    align-items: center;
+    padding: 3.5rem 0;
+    background-position: 58% center;
+  }
+
+  .home-hero__content {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .home-hero__title {
+    max-width: 100%;
+    font-size: clamp(2rem, 9vw, 2.7rem);
+    line-height: 1.15;
+    letter-spacing: -0.04em;
+    overflow-wrap: break-word;
+  }
+
+  .home-hero__lead {
+    max-width: 100%;
+    margin: 1rem 0 1.4rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .home-hero .btn {
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
