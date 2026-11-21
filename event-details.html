@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Event details, schedule, speakers and registration for the SMIU Annual Tech Conference.">
+  <title>SMIU Events Portal | Event Details</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="CSS/style.css" rel="stylesheet">
+</head>
+<body class="smiu-body">
+
+  <!-- COMMON NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg site-navbar sticky-top" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand site-navbar__brand d-flex align-items-center gap-2" href="index.html">
+          <img src="Images/smiu-logo.png" alt="SMIU Logo" class="site-navbar__logo"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+          <i class="bi bi-mortarboard-fill fs-3 text-primary" style="display:none;" aria-hidden="true"></i>
+          <span class="site-navbar__brand-text">SMIU Events Portal</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="events.html">Events</a></li>
+            <li class="nav-item"><a class="nav-link" href="societies.html">Societies</a></li>
+            <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="home-section" aria-labelledby="event-title">
+      <div class="container">
+
+        <!-- Back link -->
+        <a href="events.html" class="ev-back-link mb-3 d-inline-block"><i class="bi bi-arrow-left" aria-hidden="true"></i> Back to all events</a>
+
+        <!-- Event banner image -->
+        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1400&q=70"
+             class="ev-banner mb-4" alt="Speaker presenting to a seated audience at a university conference">
+
+        <span class="badge smiu-event-badge mb-2">Technology</span>
+        <h1 id="event-title" class="smiu-section-title">SMIU Annual Tech Conference</h1>
+        <p class="text-muted mb-4">A full day of talks and live demos on software, AI and careers in technology.</p>
+
+        <!-- Date, time, venue, fee -->
+        <div class="row g-3 mb-4">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="ev-info-box">
+              <i class="bi bi-calendar-event" aria-hidden="true"></i>
+              <div><span class="ev-info-box__label">Date</span><strong>12 December 2026</strong></div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="ev-info-box">
+              <i class="bi bi-clock" aria-hidden="true"></i>
+              <div><span class="ev-info-box__label">Time</span><strong>10:00 AM to 4:00 PM</strong></div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="ev-info-box">
+              <i class="bi bi-geo-alt" aria-hidden="true"></i>
+              <div><span class="ev-info-box__label">Venue</span><strong>Main Auditorium</strong></div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="ev-info-box">
+              <i class="bi bi-cash-coin" aria-hidden="true"></i>
+              <div><span class="ev-info-box__label">Fee</span><strong>Rs. 500</strong></div>
+            </div>
+          </div>
+        </div>
+
+                <!-- ACCORDION: Schedule, Speakers, Rules -->
+        <div class="accordion ev-accordion mb-4" id="eventAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseSchedule" aria-expanded="true" aria-controls="collapseSchedule">
+                Schedule
+              </button>
+            </h2>
+            <div id="collapseSchedule" class="accordion-collapse collapse show" data-bs-parent="#eventAccordion">
+              <div class="accordion-body">
+                <ul class="mb-0">
+                  <li>10:00 AM: Registration and welcome</li>
+                  <li>11:00 AM: Keynote talk on AI and software careers</li>
+                  <li>1:00 PM: Lunch and networking break</li>
+                  <li>2:00 PM: Live demos by student teams</li>
+                  <li>3:30 PM: Prize distribution and closing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseSpeakers" aria-expanded="false" aria-controls="collapseSpeakers">
+                Speakers
+              </button>
+            </h2>
+            <div id="collapseSpeakers" class="accordion-collapse collapse" data-bs-parent="#eventAccordion">
+              <div class="accordion-body">
+                <ul class="mb-0">
+                  <li>Guest speaker from the software industry (Keynote)</li>
+                  <li>SMIU alumni working in AI and cloud computing</li>
+                  <li>Faculty members from the Computer Science department</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseRules" aria-expanded="false" aria-controls="collapseRules">
+                Rules
+              </button>
+            </h2>
+            <div id="collapseRules" class="accordion-collapse collapse" data-bs-parent="#eventAccordion">
+              <div class="accordion-body">
+                <ul class="mb-0">
+                  <li>Bring your university ID card.</li>
+                  <li>Be seated 15 minutes before the start time.</li>
+                  <li>Mobile phones must be on silent during sessions.</li>
+                  <li>Registration is required to attend.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+                <!-- Register Now button: opens the modal -->
+        <button type="button" class="btn btn-lg btn-smiu-primary" data-bs-toggle="modal" data-bs-target="#registerModal">
+          Register Now
+        </button>
+
+        <!-- REGISTRATION MODAL -->
+        <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content ev-modal">
+              <div class="modal-header">
+                <h2 class="modal-title h5" id="registerModalLabel">Register for SMIU Annual Tech Conference</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+
+              <form id="quickRegisterForm">
+                <div class="modal-body">
+                  <div class="mb-3">
+                    <label for="modalName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="modalName" placeholder="Enter your full name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="modalRoll" class="form-label">Roll Number</label>
+                    <input type="text" class="form-control" id="modalRoll" placeholder="e.g. 2024-CS-001" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="modalEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="modalEmail" placeholder="you@example.com" required>
+                  </div>
+                  <div id="modalSuccess" class="alert alert-success d-none mb-0" role="alert">
+                    Thank you! Your registration has been received.
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-smiu-primary">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-7 col-lg-6">
+          <p class="footer-brand d-flex align-items-center gap-2">
+            <img src="Images/SMIU_Logo2.jpg" alt="SMIU Logo" class="site-footer__logo"
+                 onerror="this.style.display='none';">
+            <span>SMIU Events Portal</span>
+          </p>
+          <p>The central place for events, activities and student societies at Sindh Madressatul Islam University, Karachi.</p>
+        </div>
+        <div class="col-12 col-md-5 col-lg-3 ms-lg-auto">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="events.html">Events</a></li>
+            <li class="mb-2"><a href="societies.html">Societies</a></li>
+            <li class="mb-2"><a href="register.html">Register</a></li>
+            <li class="mb-2"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-bottom mb-0">&copy; 2026 SMIU Events Portal, Sindh Madressatul Islam University. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Show a success message instead of reloading the page -->
+  <script>
+    document.getElementById('quickRegisterForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      document.getElementById('modalSuccess').classList.remove('d-none');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
