@@ -590,3 +590,36 @@ button:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* events page styling */
+/* ===== Ansharah: Events pages (unique prefix: ev-) ===== */
+
+/* Page header banner used on Events and Event Details pages */
+.ev-page-header {
+  padding: clamp(3rem, 6vw, 4.5rem) 0;
+  background: var(--primary);
+  color: #fff;
+}
+
+.ev-page-header__title {
+  color: #fff;
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.ev-page-header__lead {
+  max-width: 640px;
+  margin: 0.5rem auto 0;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Date badge on event cards */
+.ev-date-badge {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #d5e9e7;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 700;
+}
