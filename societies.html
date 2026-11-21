@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Societies | SMIU Events Portal</title>
+
+    <!-- Bootstrap 5.3.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="CSS/style.css" rel="stylesheet">
+</head>
+
+<body class="smiu-body">
+
+    <!-- Navbar will be added here -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg site-navbar sticky-top" aria-label="Main navigation">
+    <div class="container">
+
+        <a class="navbar-brand site-navbar__brand d-flex align-items-center gap-2" href="index.html">
+            <img src="Images/smiu-logo.png" alt="SMIU Logo" class="site-navbar__logo"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+
+            <i class="bi bi-mortarboard-fill fs-3 text-primary" style="display:none;" aria-hidden="true"></i>
+
+            <span class="site-navbar__brand-text">SMIU Events Portal</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-lg-1">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="societies.html">Societies</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Societies content will be added here -->
+
+<!-- Official SMIU Societies -->
+<section class="home-section py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <span class="badge text-bg-light mb-2">Student Life at SMIU</span>
+            <h2 class="smiu-section-title">Explore Our Societies</h2>
+            <p class="smiu-section-subtitle">
+                Discover your passion, develop your skills and connect with
+                the SMIU student community.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Art Society -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center p-3">
+                    <img src="https://www.smiu.edu.pk/themes/smiu/images/art-society.jpg"
+                         alt="Art Society Logo"
+                         class="img-fluid mx-auto mb-3"
+                         style="width:150px;height:150px;object-fit:contain;"
+                         loading="lazy">
+                    <div class="card-body">
+                        <h4>Art Society</h4>
+                        <p class="text-muted">Encouraging creativity, artistic expression, drawing and painting among students.</p>
+                        <a href="register.html?society=Art" class="btn btn-smiu-primary">
+                            Join Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Science Society -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center p-3">
+                    <img src="https://www.smiu.edu.pk/themes/smiu/images/science-society.jpg"
+                         alt="Science Society Logo"
+                         class="img-fluid mx-auto mb-3"
+                         style="width:150px;height:150px;object-fit:contain;"
+                         loading="lazy">
+                    <div class="card-body">
+                        <h4>Science Society</h4>
+                        <p class="text-muted">Promoting scientific knowledge, curiosity, research and innovative thinking.</p>
+                        <a href="register.html?society=Science" class="btn btn-smiu-primary">
+                            Join Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sports Society -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center p-3">
+                    <img src="https://www.smiu.edu.pk/themes/smiu/images/sports-society.jpg"
+                         alt="Sports Society Logo"
+                         class="img-fluid mx-auto mb-3"
+                         style="width:150px;height:150px;object-fit:contain;"
+                         loading="lazy">
+                    <div class="card-body">
+                        <h4>Sports Society</h4>
+                        <p class="text-muted">Building teamwork, sportsmanship and an active campus community through sports.</p>
+                        <a href="register.html?society=Sports" class="btn btn-smiu-primary">
+                            Join Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Music Society -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center p-3">
+                    <img src="https://www.smiu.edu.pk/themes/smiu/images/SMIU-Music-Society.jpg"
+                         alt="Music Society Logo"
+                         class="img-fluid mx-auto mb-3"
+                         style="width:150px;height:150px;object-fit:contain;"
+                         loading="lazy">
+                    <div class="card-body">
+                        <h4>Music Society</h4>
+                        <p class="text-muted">Celebrating musical talent, creativity and appreciation through student activities.</p>
+                        <a href="register.html?society=Music" class="btn btn-smiu-primary">
+                            Join Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Literary Society -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center p-3">
+                    <img src="https://www.smiu.edu.pk/themes/smiu/images/literary-society.jpg"
+                         alt="Literary Society Logo"
+                         class="img-fluid mx-auto mb-3"
+                         style="width:150px;height:150px;object-fit:contain;"
+                         loading="lazy">
+                    <div class="card-body">
+                        <h4>Literary Society</h4>
+                        <p class="text-muted">Inspiring reading, writing, poetry and literary expression among students.</p>
+                        <a href="register.html?society=Literary" class="btn btn-smiu-primary">
+                            Join Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Debating Society -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center p-3">
+                    <img src="https://www.smiu.edu.pk/themes/smiu/images/debating-society.jpg"
+                         alt="Debating Society Logo"
+                         class="img-fluid mx-auto mb-3"
+                         style="width:150px;height:150px;object-fit:contain;"
+                         loading="lazy">
+                    <div class="card-body">
+                        <h4>Debating Society</h4>
+                        <p class="text-muted">Developing public speaking, confidence, critical thinking and communication skills.</p>
+                        <a href="register.html?society=Debating" class="btn btn-smiu-primary">
+                            Join Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Community Service Society -->
+            <div class="col-sm-6 col-lg-4">
+                <div class="card h-100 shadow-sm border-0 text-center p-3">
+                    <img src="https://www.smiu.edu.pk/themes/smiu/images/community-service-society.jpg"
+                         alt="Community Service Society Logo"
+                         class="img-fluid mx-auto mb-3"
+                         style="width:150px;height:150px;object-fit:contain;"
+                         loading="lazy">
+                    <div class="card-body">
+                        <h4>Community Service Society</h4>
+                        <p class="text-muted">Encouraging volunteering, social responsibility and positive community impact.</p>
+                        <a href="register.html?society=Community%20Service" class="btn btn-smiu-primary">
+                            Join Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer will be added here -->
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-12 col-md-7 col-lg-6">
+                <p class="footer-brand d-flex align-items-center gap-2">
+                    <img src="Images/SMIU_Logo2.jpg"
+                         alt="SMIU Logo"
+                         class="site-footer__logo"
+                         onerror="this.style.display='none';">
+
+                    <span>SMIU Events Portal</span>
+                </p>
+
+                <p>
+                    The central place for events, activities and student
+                    societies at Sindh Madressatul Islam University, Karachi.
+                </p>
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-3 ms-lg-auto">
+                <h5>Quick Links</h5>
+
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="events.html">Events</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="societies.html">Societies</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="register.html">Register</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <p class="footer-bottom mb-0">
+            &copy; 2026 SMIU Events Portal, Sindh Madressatul Islam University.
+            All rights reserved.
+        </p>
+    </div>
+</footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
