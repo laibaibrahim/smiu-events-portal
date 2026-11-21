@@ -593,7 +593,6 @@ button:focus-visible {
 
 /* =================================
    SOCIETY CARDS - MODERN DESIGN
-================================= */
 
 .society-card {
     background: #ffffff;
@@ -677,4 +676,161 @@ button:focus-visible {
 #registrationForm .form-check-input:checked {
     background-color: #147d78;
     border-color: #147d78;
+}
+/* ================= MOBILE NAVBAR IMPROVEMENTS ================= */
+
+@media (max-width: 575.98px) {
+
+  .site-navbar .container {
+    gap: 8px;
+  }
+
+  .site-navbar__brand {
+    min-width: 0;
+    max-width: calc(100% - 60px);
+    gap: 8px !important;
+  }
+
+  .site-navbar__logo {
+  width: auto;
+  max-width: 58px;
+  height: 58px;
+}
+
+  .site-navbar__brand > .bi {
+  width: 50px;
+  height: 50px;
+  flex: 0 0 50px;
+  line-height: 50px;
+  font-size: 1.5rem !important;
+}
+  .site-navbar__brand-text {
+    font-size: 1rem;
+    padding-left: 8px;
+    letter-spacing: -0.02em;
+    overflow-wrap: anywhere;
+  }
+
+  .site-navbar .navbar-toggler {
+    flex-shrink: 0;
+  }
+
+}
+
+/* MOBILE CAROUSEL IMPROVEMENTS  */
+
+@media (max-width: 575.98px) {
+
+  .home-carousel .carousel-item img {
+    height: 380px;
+    object-fit: cover;
+  }
+
+  .home-carousel .carousel-caption {
+    left: 12%;
+    right: 12%;
+    bottom: 28px;
+    padding: 10px 6px;
+  }
+
+  .home-carousel .carousel-caption h5 {
+    font-size: 1.15rem;
+    line-height: 1.35;
+  }
+
+  .home-carousel .carousel-caption p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+
+  .home-carousel .carousel-caption .btn {
+    font-size: 0.8rem;
+    padding: 7px 12px !important;
+  }
+
+  .home-carousel .carousel-control-prev,
+  .home-carousel .carousel-control-next {
+    width: 10%;
+  }
+
+  .home-carousel .carousel-indicators {
+    margin-bottom: 8px;
+  }
+
+}
+
+/* ================= MOBILE EVENT CARDS IMPROVEMENTS ================= */
+
+@media (max-width: 575.98px) {
+
+  .smiu-event-card {
+    border-radius: 14px;
+  }
+
+  .smiu-event-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .smiu-event-card .card-body {
+    padding: 1.15rem;
+  }
+
+  .smiu-event-card .card-title {
+    font-size: 1.15rem;
+    line-height: 1.4;
+  }
+
+  .smiu-event-card .card-text {
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .smiu-event-card .btn {
+    min-height: 42px;
+  }
+
+}
+
+/* ================= MOBILE HERO IMPROVEMENTS ================= */
+
+@media (max-width: 575.98px) {
+
+  .home-hero {
+    min-height: 440px;
+    display: flex;
+    align-items: center;
+    padding: 3.5rem 0;
+    background-position: 58% center;
+  }
+
+  .home-hero__content {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .home-hero__title {
+    max-width: 100%;
+    font-size: clamp(2rem, 9vw, 2.7rem);
+    line-height: 1.15;
+    letter-spacing: -0.04em;
+    overflow-wrap: break-word;
+  }
+
+  .home-hero__lead {
+    max-width: 100%;
+    margin: 1rem 0 1.4rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .home-hero .btn {
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
