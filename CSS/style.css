@@ -639,3 +639,49 @@ button:focus-visible {
   font-weight: 700;
   white-space: nowrap;
 }
+
+
+/* Event details page */
+.ev-back-link {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.ev-back-link:hover {
+  color: var(--accent-hover);
+}
+
+.ev-banner {
+  display: block;
+  width: 100%;
+  height: clamp(220px, 40vw, 420px);
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.ev-info-box {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+.ev-info-box i {
+  color: var(--accent);
+  font-size: 1.6rem;
+}
+
+.ev-info-box__label {
+  display: block;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.ev-info-box strong {
+  color: var(--primary);
+}
