@@ -698,3 +698,16 @@ button:focus-visible {
   border-color: var(--accent);
   box-shadow: 0 0 0 0.2rem rgba(20, 125, 120, 0.25);
 }
+
+
+/* Registration modal */
+.ev-modal {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.ev-modal .modal-header {
+  background: var(--surface-tint);
+  border-bottom: 1px solid var(--border);
+  color: var(--primary);
+}
