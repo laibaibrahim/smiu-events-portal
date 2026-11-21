@@ -672,3 +672,36 @@ button:focus-visible {
   }
 
 }
+
+/* ================= MOBILE EVENT CARDS IMPROVEMENTS ================= */
+
+@media (max-width: 575.98px) {
+
+  .smiu-event-card {
+    border-radius: 14px;
+  }
+
+  .smiu-event-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .smiu-event-card .card-body {
+    padding: 1.15rem;
+  }
+
+  .smiu-event-card .card-title {
+    font-size: 1.15rem;
+    line-height: 1.4;
+  }
+
+  .smiu-event-card .card-text {
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .smiu-event-card .btn {
+    min-height: 42px;
+  }
+
+}
